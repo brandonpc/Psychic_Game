@@ -5,21 +5,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="assets/javascript/game.js"></script>
         <title>Psychic</title>
     </head>
 
     <body>
-        <div id="psychic-game">
-            <h1> Psychic Game </h1>
-            <p>Guess what letter I'm thinking of!</p>
-            <div id="score-display">
-                <p>Wins:</p>
-                <p>Losses:</p>
-                <p>Guesses Left:</p>
-                <p>Your Guesses so far:</p>
-            </div>
-        </div>
+        <main role="main" class="container">
+            <div class="jumbotron">
+                <h1> Psychic Game </h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="psychic-game">
+                            <h3>Guess what letter I'm thinking of!</h3>
+
+                            <p>Rules:</p>
+                            <ul>
+                                <li>
+                                    Type any letter to start!
+                                </li>
+                                <li>
+                                    If it's correct, you win a point!
+                                </li>
+                                <li>
+                                    If your guess is incorrect, you lose.
+                                </li>
+                                <li>
+                                    If you don't guess in 10 tries, the game restarts.
+                                </li>
+                            </ul>
+                            <div id="score-display">
+                                <p>Wins:</p>
+                                <p>Losses:</p>
+                                <p>Guesses Left:</p>
+                                <p>Your Guesses so far:</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+
     </body>
 
 </html>
