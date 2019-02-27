@@ -1,0 +1,9 @@
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    background-image: url("../images/psychic-image.jpg");
+}
+
+.jumbotron {
+    background-color: #ffffff;
+}
